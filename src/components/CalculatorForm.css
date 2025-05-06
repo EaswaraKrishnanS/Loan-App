@@ -1,0 +1,46 @@
+.calculator-container {
+    margin-top: 2rem;
+    padding: 1rem;
+  }
+  
+  .calculator-container .MuiTextField-root {
+    margin-bottom: 1rem;
+  }
+  
+  .calculator-container .MuiButton-root {
+    width: 100%;
+  }
+  
+  @media (max-width: 600px) {
+    .calculator-container {
+      padding: 1rem 0.5rem;
+    }
+  
+    .calculator-container .MuiTextField-root {
+      font-size: 0.9rem;
+    }
+  
+    .calculator-container .MuiButton-root {
+      font-size: 0.9rem;
+      padding: 0.6rem;
+    }
+  
+    .calculator-container h4 {
+      font-size: 1.3rem;
+    }
+  }
+  
+  @media (min-width: 601px) and (max-width: 900px) {
+    .calculator-container {
+      padding: 1rem;
+    }
+  
+    .calculator-container .MuiButton-root {
+      padding: 0.8rem;
+    }
+  
+    .calculator-container h4 {
+      font-size: 1.5rem;
+    }
+  }
+  
